@@ -1,0 +1,44 @@
+.slider-container {
+    width: 550px;
+    margin: 0 auto;
+    border: 2px solid grey;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+}
+
+i {
+    position: absolute;
+    border-radius: 100%;
+    color: grey;
+    font-size: 30px;
+}
+
+#nextBtn {
+    top: 45%;
+    right: 5px;
+}
+
+#prevBtn {
+    top: 45%;
+    left: 5px;
+}
+
+.wrapper {
+    width: 660px;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:686px) {
+    .wrapper {
+        width: 100%;
+    }
+    .slider-container {
+        width: 380px;
+        height: 300px;
+    }
+}
