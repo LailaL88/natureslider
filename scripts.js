@@ -38,4 +38,6 @@ function onPageLoaded() {
     })
 }
 
-document.addEventListener("DOMContentLoaded", onPageLoaded);
+window.onload = fuction(event){
+    onPageLoaded();
+}
