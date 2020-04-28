@@ -38,6 +38,4 @@ function onPageLoaded() {
     })
 }
 
-window.onload = function(event){
-    onPageLoaded();
-}
+window.addEventListener("load", onPageLoaded);
